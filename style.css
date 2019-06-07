@@ -1,0 +1,112 @@
+body {
+  font-family: "Nunito Sans", sans-serif;
+  background-color: #6cb8d9;
+  margin: 0;
+}
+
+.projects-wrapper {
+  padding: 0 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-around;
+  background-color: yellowgreen;
+}
+
+.project {
+  border: 2px solid #4680df;
+  height: 225px;
+  line-height: 1.9em;
+  border-radius: 8px;
+  flex: 1 200px;
+  padding: 20px;
+  margin: 10px;
+  background-color: #ecf2f5;
+  display: flex;
+  flex-direction: column;
+}
+
+.project_buttons {
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Nunito Sans", sans-serif;
+  color: #0d3068;
+  font-weight: 700;
+  font-style:italic;
+  margin: 0px;
+}
+
+.link {
+  color:  #0d3068;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #0d3068;
+  text-decoration: none;
+}
+
+p {
+  flex-grow: 1;
+  text-align: left;
+  color: rgb(16, 4, 71);
+  line-height: 1.25em;
+  font-size: 1.1em;
+}
+
+img {
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.header > img {
+  width: 40%;
+}
+
+.jg_button {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  background-color: #0d3068;
+  color: white;
+  font-size: 1.2em;
+  padding: 10px;
+  border: 1px white;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.3s;
+  text-align: center;
+}
+
+.jg_button:hover {
+  background-color: white;
+  color: #0d3068;
+}
+
+.jg_button:active {
+  position: relative;
+  top: 1px;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+}
+
+.spacer10 {
+  height: 10px;
+  width: 100%;
+}
