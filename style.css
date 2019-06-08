@@ -4,15 +4,6 @@ body {
   margin: 0;
 }
 
-/* .projects-wrapper {
-  padding: 0 50px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: space-around;
-  background-color: yellowgreen;
-} */
-
 .project {
   margin: auto;
   display: grid;
@@ -41,9 +32,6 @@ body {
   grid-gap: 20px;
 }
 
-.project_buttons {
-}
-
 h1,
 h2,
 h3,
@@ -57,6 +45,12 @@ h6 {
   margin: 0px;
 }
 
+p {
+  font-family: "Nunito Sans", sans-serif;
+  color: #0d3068;
+  margin: 0px;
+}
+
 .link {
   color: #0d3068;
   text-decoration: none;
@@ -66,14 +60,6 @@ h6 {
   color: #0d3068;
   text-decoration: none;
 }
-
-/* p {
-  flex-grow: 1;
-  text-align: left;
-  color: rgb(16, 4, 71);
-  line-height: 1.25em;
-  font-size: 1.1em;
-} */
 
 img {
   display: block;
@@ -100,7 +86,7 @@ img {
   font-weight: 400;
   background-color: #0d3068;
   color: white;
-  font-size: 1.2em;
+  font-size: 1rem;
   padding: 10px;
   border: 1px white;
   border-radius: 8px;
@@ -122,5 +108,10 @@ img {
 
 .spacer10 {
   height: 10px;
+  width: 100%;
+}
+
+.spacer05 {
+  height: 5px;
   width: 100%;
 }
